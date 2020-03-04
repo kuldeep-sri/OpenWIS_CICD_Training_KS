@@ -15,7 +15,7 @@ before_install:
       secure: "VE8DViu99paEdD38M7JXFXReyiTOTYjYk+ExmIGy6MD3rf1YJzFCdix2Ljfkp8YWfxayT+jWVBF3nqRneeaTTDE+C5dbral2AP6sFpFBBKTMbyFSkOzMMlKnaC1VV6UF1owDdptj4uS4yzqcCsf06
 ktlF09OY79OG5VIoaPn8tf3v6CkwSahnxM4A/yDkR2rRUnwCuU+k6Wju9ZSN1EZ62qHETQQlKuZF04at8W07FWLEbDQxELSa2ISDf6qezYH/SFUOwcsKJSKricJT+uoexhAF5YXvKBa+68kZcEcJwfqFKpplPuxt
 r2GngWcSsSxOrIrmHJH6ka3OqRFSMciTE49OR0JBVS7diEePgOJL3DU/FIl/qAG0k9QEgfBSsMzWUCo7x0p8bXT+JYBQ2t5z935EkRmGqqdaU/YwFnWqzurnRmQ8zkIs6ByJ3RXh1bO2IKwoRgFhQzChr/2vpbio
-NVQ1LJrMSuCRn2PkN/MTDHAX8nL5JTYFFoBM7x9W8n2r+SgjrpWTyfguNkazlQ+8uNTKrW+nnSHCKFng>
+NVQ1LJrMSuCRn2PkN/MTDHAX8nL5JTYFFoBM7x9W8n2r+SgjrpWTyfguNkazlQ+8uNTKrW+nnSHCKFng"
 
      on_success: always
 
@@ -23,10 +23,10 @@ NVQ1LJrMSuCRn2PkN/MTDHAX8nL5JTYFFoBM7x9W8n2r+SgjrpWTyfguNkazlQ+8uNTKrW+nnSHCKFng
 
  addons:
         sonarcloud:
-                organization: "<kuldeep-sri>"
+                organization: "kuldeep-sri"
                 token
                   secure: "Qh2+fjoxc9TSoQV5mHiCJO44v8rpNz+mCTRoPJfy/+tVgd0nf9KFgcTab7c1tgM4FQkd1u5R/ytYC42loPSz11GmkI20Fk+UwpZs34XeUCrOpzKbsinZQHW3PVfeZGYtGkMoUwMERyMgERe0vWh+h8S2nKrnNpBNfZ9IACbI8t+67drGcCEyyEHSzq2dcnOS2CE2RkIeN8Iy8Jl6fihZKUrpv3O5Amq/Z1mogq28rRaa6bEhDpdE26YKrkj3S9gbFqRDht9lECHTr571dE9RQfPgF7qx28fckx+0KXXFui4drjSSpjChh18TD4JocqZt48g8soBU9zK/iHSvuTKgUncnIACOzViTMPMMWO4fUzA1KLVkvgWaPmCzj9+W7B4vvMVPag6DVtyN3ulUIVR+J7ucPCcnm73XPRm2qwxnwuwZCb+3/xvKLMJX6+A43VsalyCf4RBs8RQXAWbJamWcEJ5bzEDPhbL4szosRPriVRD/OFC+4/RHwJBaBxOZh6YLeyMnQNavZG5dr868G6puaLyL2yK99OrRH90vDKAQiVynIMTsw16NEN1Xt4cdt4XMQUqepbr0g3fwsINhlCH9+1DMRwtkNorMHadDsDEPrLsLfQSXvbr9mHt7dj883Wxwbub19WD/NhnJOUkH1lFC6w8smaubBMHBdqnXTG42xoA="
 
 script:
-        - ./mvnw clean install sonar:sonar -Dsonar.projectKey=<kuldeep-sri_OpenWIS_CICD_Training_KS>
+        - ./mvnw clean install sonar:sonar -Dsonar.projectKey=kuldeep-sri_OpenWIS_CICD_Training_KS
 
