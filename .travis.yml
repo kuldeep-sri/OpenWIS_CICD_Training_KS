@@ -12,8 +12,8 @@ notifications:
 ktlF09OY79OG5VIoaPn8tf3v6CkwSahnxM4A/yDkR2rRUnwCuU+k6Wju9ZSN1EZ62qHETQQlKuZF04at8W07FWLEbDQxELSa2ISDf6qezYH/SFUOwcsKJSKricJT+uoexhAF5YXvKBa+68kZcEcJwfqFKpplPuxt
 r2GngWcSsSxOrIrmHJH6ka3OqRFSMciTE49OR0JBVS7diEePgOJL3DU/FIl/qAG0k9QEgfBSsMzWUCo7x0p8bXT+JYBQ2t5z935EkRmGqqdaU/YwFnWqzurnRmQ8zkIs6ByJ3RXh1bO2IKwoRgFhQzChr/2vpbio
 NVQ1LJrMSuCRn2PkN/MTDHAX8nL5JTYFFoBM7x9W8n2r+SgjrpWTyfguNkazlQ+8uNTKrW+nnSHCKFng"
-    on_success: always
-    on_failure: always
+  on_success: always
+  on_failure: always
 addons:
   sonarcloud:
     organization: "kuldeep-sri"
